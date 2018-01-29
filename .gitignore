@@ -1,0 +1,21 @@
+# .gitignore is for the files you dont want to be commited.
+#
+# usually for things like Windows *.db files or Macs .DS_store files.
+#
+# Comments use "#" at the beginning of each line.
+# Asteriks can be used as wild cards - Example: *.db, *.log
+#
+#	Remove files from repository after commit.
+#	- 	git rm --cached <fileName>
+#
+#
+#	You can also force ignored files to be added to commit:
+#	-	git add -f <fileName>
+#
+#	To check why a particular file is being ignored:
+#	- 	git check-ignore <fileName>
+#
+#	gitignore Templates:
+# 		https://github.com/github/gitignore
+.DS_store
+Thumb.db

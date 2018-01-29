@@ -1,0 +1,46 @@
+This is a quick how to for git. Just a few getting started commands for Git. 
+
+Commands are executed from within projects root folder.
+
+To initialize a new project:
+	-	git init
+
+
+Add/Update files to project commit:
+	-	git add <fileName>
+	-	git add .	//Adds everything not already added.
+
+
+Remove files from project commit:
+	-	git rm <fileName>
+
+
+Status: used from within the folder. 
+	-	git status
+
+
+Commit Version:
+	-	git commit -m "Message for commit"
+
+	note: -m = message, ergo without it no message.
+
+Push commits to server:
+	-	git push
+	- 	git push -u <remoteRepoName> <branch>
+
+Add a remote repository:
+	-	git remote add <remoteRepoName> git@github.com:<user>/<repo>.git
+
+	note: can have multiple remote repositories saved for project. 
+
+Verify Remote Repositories:
+	-	git remote -v
+
+Update remote repository url:
+	-	git remote set-url <remoteRepoName> new_url
+
+Log commit changes:
+	-	git log
+
+HELP:
+	-	git --help
